@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de Contato">
+    <meta name="keywords" content="Fale Conosco, Formulário, Contato">
+    <meta name="author" content="Leonardo Casseb Gomes">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">DesignFlazudo</a>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Clientes</a>
+            <a href="page3.html">Sobre Nós</a>
+            <a id="botao-fale-conosco" href="page4.html">Serviços</a>
+        </div>
+    </nav>
+    <div style="text-align: center;" id="div_1">
+        <h2>Encontre os melhores designers de imagem, vídeo, e audio</h2>
+    </div>
+    <header class="headline_5">
+        <div class="form-container">
+            <h1>Fale Conosco</h1>
+            <form action="https://formspree.io/f/xrbglpog" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>

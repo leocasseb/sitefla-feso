@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 10%;
+    flex: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo a{
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color:#9b0000;
+    text-decoration: none;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    padding: 20px 16px;
+    font-size: 20px;
+    color:#9b0000;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffffff;
+    border-top: 4px solid #9b0000;
+}
+
+#botao-fale-conosco{
+    background-color: #9b0000;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao-fale-conosco:hover{
+    border: none;
+    background-color: white;
+    color: #000000;
+}
+
+#div_1{
+    color: white;
+    background-color: #9b0000;
+    padding: 1px;
+}
+
+.img-r4x{
+    padding: 25px;
+    height: 485px;
+}
+
+.video-meufla{
+    height: 485px;
+    padding: 25px;
+}
+
+.audio-meufla{
+    padding: 25px;
+    height: 100px;
+}
+
+.header-1{
+    text-align: center;
+}
+.comments-1{
+    text-align: left;
+    padding: 2%
+}
+
+.comments-1 h2{
+    text-align: center;
+    color: white;
+}
+
+.comments-1 h4{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.comments-1 div{
+    background-color: black;
+    border: 2px solid #9b0000;
+    border-radius: 10px;
+    margin: 20px 10%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
+.menu-item h3 {
+    margin: 0;
+}
+.menu-item span {
+    font-weight: bold;
+    color: #9b0000;
+}
+.caixa {
+    background-color: black;
+    border: 3px solid #9b0000;
+    border-radius: 10px;
+    margin: 20px 10%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.caixa h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.caixa p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.caixa hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #9b0000;
+}
+.form-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000000;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #000000;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.form-container button {
+    background-color: #9b0000;
+    color: rgb(255, 255, 255);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.form-container button:hover {
+    background-color: white;
+    color: #9b0000;
+    border: 1px solid #9b0000;
+}
